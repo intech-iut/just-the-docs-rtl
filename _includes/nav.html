@@ -1,4 +1,9 @@
 <nav role="navigation" aria-label="Main navigation">
+  <a href="#" class="navbar-brand">
+      <!-- Logo Image -->
+      <img src="{{ site.baseurl }}/assets/images/just-the-docs-rtl_logo.png" width="180" alt="just-the-docs-rtl_logo" class="mx-auto d-block">
+  </a>
+  <hr>
   <ul class="navigation-list">
     {%- assign pages_list = site.html_pages | sort:"nav_order" -%}
     {%- for node in pages_list -%}

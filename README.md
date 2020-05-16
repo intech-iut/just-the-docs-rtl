@@ -3,57 +3,24 @@
 </p>
 <br><br>
 <p align="center">
-    <h1 align="center">Just the Docs</h1>
+    <h1 align="center">Just the Docs for Right-to-Left Scripts</h1>
     <p align="center">A modern, highly customizable, and responsive Jekyll theme for documentation with built-in search.<br>Easily hosted on GitHub Pages with few dependencies.</p>
-    <p align="center"><strong><a href="https://pmarsceill.github.io/just-the-docs/">See it in action!</a></strong></p>
+    <p align="center"><strong><a href="https://pmarsceill.github.io/just-the-docs/">See the original one</a></strong> and <strong><a href="https://kurdishxelatex.github.io/Sorani">the forked one with right-to-left support</a></strong> in practice</p>
     <br><br><br>
 </p>
 
 ![jtd](https://user-images.githubusercontent.com/896475/47384541-89053c80-d6d5-11e8-98dc-dba16e192de9.gif)
 
-## Installation
+# Additional features
 
-Add this line to your Jekyll site's Gemfile:
+You can find out more about this awesome template in the [original repository](https://github.com/pmarsceill/just-the-docs). Here, I would like to highlight the two important features which are added to the original template for making the current one:
 
-```ruby
-gem "just-the-docs"
-```
-
-And add this line to your Jekyll site's `_config.yml`:
-
-```yaml
-theme: just-the-docs
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install just-the-docs
+- Supporting languages using right-to-left scripts like Arabic, Hebrew, Sorani Kurdish and Persian. For this purpose, [https://github.com/DediData/Bootstrap-RTL](Bootstrap-RTL) is used.
+- In the original template, the logo should be quite small. In this one, you can put your logo right above the items in the navigation bar giving you a bigger space. The name of the logo file can be modified at `/_includes/nav.html`. If you would like to change it, do so at `_sass/base.scss`.
 
 ## Usage
 
 [View the documentation](https://pmarsceill.github.io/just-the-docs/) for usage information.
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/pmarsceill/just-the-docs. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-### Submitting code changes:
-
-- Open a [Pull Request](https://github.com/pmarsceill/just-the-docs/pulls)
-- Ensure all CI tests pass
-- Await code review
-- Bump the version number in `just-the-docs.gemspec` and `package.json` according to [semantic versioning](https://semver.org/).
-
-### Design and development principles of this theme:
-
-1. As few dependencies as possible
-2. No build script needed
-3. First class mobile experience
-4. Make the content shine
 
 ## Development
 

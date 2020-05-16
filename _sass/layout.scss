@@ -2,6 +2,8 @@
 // The basic two column layout
 //
 
+// Sina 16 May 2020: margin-left changed to margin-right
+
 .page-wrap {
   @include mq(md) {
     position: absolute;
@@ -54,11 +56,11 @@
   @include mq(md) {
     position: relative;
     max-width: $content-width;
-    margin-left: $nav-width-md;
+    margin-right: $nav-width-md;
   }
 
   @include mq(lg) {
-    margin-left: calc(
+    margin-right: calc(
       (100% - #{$nav-width + $content-width}) / 2 + #{$nav-width}
     );
   }
